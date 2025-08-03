@@ -59,13 +59,13 @@ export default function Experience() {
       <div className="mb-3 p-1 text-sm bg-[#468be6] rounded-xl">
         <button
           onClick={() => setActiveTab('work')}
-          className={`px-2 py-1 w-1/2 font-semibold rounded-lg ${activeTab === 'work' ? 'bg-[#1f1f1f] text-white' : 'bg-[#468be6] text-[#1f1f1f]'}`}
+          className={`px-2 py-1 w-1/2 font-semibold rounded-lg ${activeTab === 'work' ? 'bg-[#1f1f1f] text-[#E9FCFF]' : 'bg-[#468be6] text-[#1f1f1f]'}`}
         >
           work
         </button>
         <button
           onClick={() => setActiveTab('education')}
-          className={`px-2 py-1 w-1/2 font-semibold rounded-lg ${activeTab === 'education' ? 'bg-[#1f1f1f] text-white' : 'bg-[#468be6] text-[#1f1f1f]'}`}
+          className={`px-2 py-1 w-1/2 font-semibold rounded-lg ${activeTab === 'education' ? 'bg-[#1f1f1f] text-[#E9FCFF]' : 'bg-[#468be6] text-[#1f1f1f]'}`}
         >
           education
         </button>
@@ -76,7 +76,7 @@ export default function Experience() {
       <div className="relative pl-6 rounded-xl border border-gray-400">
 
         {/* Vertical line */}
-        <div className="absolute top-0 bottom-0 left-[43px] w-[1px] bg-gray-400" />
+        <div className="absolute top-0 bottom-0 left-[44px] w-[1px] bg-gray-400" />
 
         {/* Timeline content */}
         <div className="space-y-10 py-2">
@@ -99,7 +99,7 @@ export default function Experience() {
               {/* Content block */}
               <div className="space-y-1">
                 <p className="text-xs text-gray-400">{item.date}</p>
-                <h3 className="text-md font-semibold text-white">{item.title}</h3>
+                <h3 className="text-md font-semibold text-[#E9FCFF]">{item.title}</h3>
                 <p className="text-sm text-gray-300">{item.subtitle}</p>
                 <ul className="list-disc list-inside text-xs text-gray-400 space-y-1">
                   {item.bullets.map((point, j) => (

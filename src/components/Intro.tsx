@@ -8,8 +8,8 @@ export default function Intro() {
     <div className="flex flex-col md:flex-row w-full max-w-5xl mx-auto py-16 px-6 items-center gap-10">
 
       {/* Left: Text Content */}
-      <div className="w-full md:w-1/2 space-y-4">
-        <h1 className="text-4xl font-bold text-white">
+      <div className="w-full md:w-1/2 space-y-4 text-[#E9FCFF]">
+        <h1 className="text-4xl font-bold ">
           hey, i’m nick. 👨‍💻
         </h1>
         <h3 className="text-xl">
