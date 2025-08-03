@@ -8,7 +8,7 @@ export default function Home() {
       {/* Left: Text Content */}
       <div className="w-full md:w-1/2 space-y-4">
         <h1 className="text-4xl font-bold text-white">
-          hey, i’m nick 👨‍💻
+          hey, i’m nick. 👨‍💻
         </h1>
         <h3 className="text-xl">
           software engineer from norcal 🌲
@@ -22,7 +22,7 @@ export default function Home() {
             href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 text-gray-400 rounded hover:text-[#E9FCFF] text-sm border"
+            className="flex items-center gap-2 px-4 py-2 text-gray-400 rounded hover:text-[#E9FCFF] transition text-sm border"
           >
             Resume
             <FaFileDownload size={18} />
@@ -32,7 +32,7 @@ export default function Home() {
             href="https://github.com/nickwithers126"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-[#E9FCFF] mt-1">
+            className="text-gray-400 hover:text-[#E9FCFF] transition mt-1">
             <FaGithub size={24} />
           </a>
 
@@ -40,7 +40,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/nick-withers-5a08a9219/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-[#E9FCFF] mt-1">
+            className="text-gray-400 hover:text-[#E9FCFF] transition mt-1">
             <FaLinkedin size={24} />
           </a>
         </div>
