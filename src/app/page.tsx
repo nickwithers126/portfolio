@@ -4,10 +4,10 @@ import FeaturedProjects from "@/components/FeaturedProjects";
 
 export default function Home() {
   return (
-    <div className="mb-20">
+    <main className="mb-20">
       <Intro />
       <Experience />
       <FeaturedProjects />
-    </div>
+    </main>
   );
 }
