@@ -60,13 +60,13 @@ export default function Experience() {
       <div className="mb-3 p-1 text-sm bg-[#468be6] rounded-xl">
         <button
           onClick={() => setActiveTab('work')}
-          className={`px-2 py-1 w-1/2 font-semibold rounded-lg ${activeTab === 'work' ? 'bg-[#1f1f1f] text-[#E9FCFF]' : 'bg-[#468be6] text-[#1f1f1f]'}`}
+          className={`px-2 py-1 w-1/2 font-semibold rounded-lg ${activeTab === 'work' ? 'bg-[#1f1f1f] text-[#E9FCFF]' : 'bg-[#468be6] text-[#1f1f1f] cursor-pointer'}`}
         >
           work
         </button>
         <button
           onClick={() => setActiveTab('education')}
-          className={`px-2 py-1 w-1/2 font-semibold rounded-lg ${activeTab === 'education' ? 'bg-[#1f1f1f] text-[#E9FCFF]' : 'bg-[#468be6] text-[#1f1f1f]'}`}
+          className={`px-2 py-1 w-1/2 font-semibold rounded-lg ${activeTab === 'education' ? 'bg-[#1f1f1f] text-[#E9FCFF]' : 'bg-[#468be6] text-[#1f1f1f] cursor-pointer'}`}
         >
           education
         </button>
