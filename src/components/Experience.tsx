@@ -17,9 +17,10 @@ const workData: Entry[] = [
     title: 'California Franchise Tax Board',
     subtitle: 'Full Stack Software Developer',
     bullets: [
-      'Devloped internal tools using .NET',
-      'Built dashboards and paginated reports',
-      'Supported enterprise rollout of a cloud-based asset management platform'
+      'Built full stack internal apps with .NET, C#, Entity Framework, and Blazor for asset tracking and compliance',
+      'Refactored legacy tools and stored procedures into modular, LINQ-based systems to boost maintainability and performance',
+      'Supported the rollout of a cloud-based asset management platform, handling backend integration and data validation',
+      'Created dashboards and paginated reports using Power BI and Report Builder, powered by custom SQL queries and views'
     ]
   },
   {
@@ -28,9 +29,9 @@ const workData: Entry[] = [
     title: 'Boeing',
     subtitle: 'Software Test Automation Engineer',
     bullets: [
-      'Automated test cases for multiple web applications',
-      'Built a regression test suite',
-      'Helped design and implement a reusable test automation framework'
+      'Automated test cases and built a regression suite for multiple web apps',
+      'Contributed to a reusable test automation framework on a cross-functional Scrum team',
+      'Ensured reliability of new features through continuous integration and testing'
     ]
   },
 ];
