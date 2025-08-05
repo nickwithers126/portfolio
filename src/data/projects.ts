@@ -25,8 +25,8 @@ export const allProjects = [
         image: '/lycheebyte.png',
         title: 'LycheeByte Company Website',
         description:
-            'Responsive marketing site for a semiconductor cleaning startup. Built a clean single-page experience to showcase services, capabilities, and contact information.',
-        tags: ['Next.js', 'TailwindCSS', 'TypeScript', 'Responsive Design'],
+            'Responsive marketing site for a semiconductor cleaning company. Built a clean single-page experience to showcase services, capabilities, and contact information.',
+        tags: ['Next.js', 'TailwindCSS', 'JavaScript'],
         links: [
             { label: 'website', url: 'https://lycheebyte.com' },
             { label: 'code', url: 'https://github.com/nickwithers126/lycheebyte' }
@@ -48,7 +48,7 @@ export const allProjects = [
         title: 'Déjà View',
         description:
             'Standalone Python desktop app to find and remove duplicate images. Includes a GUI with side-by-side image previews and .exe packaging for distribution.',
-        tags: ['Python', 'Tkinter', 'Pillow', 'Desktop App'],
+        tags: ['Python', 'Tkinter', 'Pillow'],
         links: [
             { label: 'website', url: 'https://dejaview.vercel.app' },
             { label: 'code', url: 'https://github.com/nickwithers126/deja-view' }
@@ -59,7 +59,7 @@ export const allProjects = [
         title: 'Generative Art',
         description:
             'Visual project in p5.js exploring randomness and design. Generates unique abstract patterns through creative coding techniques.',
-        tags: ['p5.js', 'Creative Coding', 'JavaScript'],
+        tags: ['p5.js', 'JavaScript', 'Creative Coding'],
         links: [
             { label: 'website', url: 'https://nick26.dev/generative' }
         ],
@@ -69,7 +69,7 @@ export const allProjects = [
         title: 'Cryptocurrency Discord Bot',
         description:
             'Real-time Discord bot that displays crypto prices in its status and responds to user commands. Integrated with the LiveCoinWatch API for up-to-date pricing.',
-        tags: ['Python', 'Discord.py', 'API Integration'],
+        tags: ['Python', 'Discord.py', 'LiveCoinWatch API'],
         links: [
             { label: 'code', url: 'https://github.com/nickwithers126/crypto-discord-bot' }
         ],
@@ -79,7 +79,7 @@ export const allProjects = [
         title: 'Photo Stitching',
         description:
             'Computer vision project using MATLAB to stitch overlapping images into panoramas. Implemented feature detection, descriptor matching, and RANSAC.',
-        tags: ['MATLAB', 'Computer Vision', 'Image Processing'],
+        tags: ['MATLAB', 'Computer Vision', 'Image Processing', 'RANSAC'],
         links: [
             { label: 'code', url: 'https://github.com/nickwithers126/photo-stitching' }
         ],
