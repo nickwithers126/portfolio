@@ -29,7 +29,7 @@ export const allProjects = [
         tags: ['Next.js', 'TailwindCSS', 'JavaScript'],
         links: [
             { label: 'website', url: 'https://lycheebyte.com' },
-            { label: 'code', url: 'https://github.com/nickwithers126/lycheebyte' }
+            { label: 'code', url: 'https://github.com/nickwithers126/lycheebyte-site' }
         ],
     },
     {
@@ -50,7 +50,7 @@ export const allProjects = [
             'Standalone Python desktop app to find and remove duplicate images. Includes a GUI with side-by-side image previews and .exe packaging for distribution.',
         tags: ['Python', 'Tkinter', 'Pillow'],
         links: [
-            { label: 'website', url: 'https://dejaview.vercel.app' },
+            { label: 'website', url: 'https://deja-view-site.vercel.app/' },
             { label: 'code', url: 'https://github.com/nickwithers126/deja-view' }
         ],
     },
@@ -61,7 +61,6 @@ export const allProjects = [
             'Visual project in p5.js exploring randomness and design. Generates unique abstract patterns through creative coding techniques.',
         tags: ['p5.js', 'JavaScript', 'Creative Coding'],
         links: [
-            { label: 'website', url: 'https://nick26.dev/generative' }
         ],
     },
     {
@@ -81,7 +80,7 @@ export const allProjects = [
             'Computer vision project using MATLAB to stitch overlapping images into panoramas. Implemented feature detection, descriptor matching, and RANSAC.',
         tags: ['MATLAB', 'Computer Vision', 'Image Processing', 'RANSAC'],
         links: [
-            { label: 'code', url: 'https://github.com/nickwithers126/photo-stitching' }
+            { label: 'code', url: 'https://github.com/nickwithers126/ecs174-hw2' }
         ],
     }
 ];
