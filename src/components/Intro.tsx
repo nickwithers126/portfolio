@@ -51,7 +51,7 @@ export default function Intro() {
 
       {/* Right: Image */}
       <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-        <Image src="/me2.JPG" alt="personal picture" width={280} height={280} className="rounded-xl" loading="eager"/>
+        <Image src="/personal_pic_2.jpg" alt="personal picture" width={280} height={280} className="rounded-xl" loading="eager"/>
       </div>
     </div>
   );
