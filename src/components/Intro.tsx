@@ -10,18 +10,19 @@ export default function Intro() {
       {/* Left: Text Content */}
       <div className="w-full md:w-1/2 space-y-4 text-[#E9FCFF]">
         <h1 className="text-4xl font-bold ">
-          hey, i’m nick. 👨‍💻
+          hey, i’m nick! 👨‍💻
         </h1>
         <h3 className="text-xl">
-          software developer from norcal 🌲
+          software developer from northern california 🌲
         </h3>
-        <p>i care how things work, how they’re built, and how they look. <br />
-           i like building and picking up new tools along the way.</p>
+        <p>
+          i care about how things work, how they’re built, and how they feel to use.
+        </p>
 
         {/* Action buttons */}
         <div className="flex gap-6 pt-2 justify-center md:justify-start">
           <a
-            href="/resume.pdf"
+            href="/nick_withers_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 text-gray-400 rounded-xl hover:text-[#E9FCFF] transition text-sm border"
@@ -50,7 +51,7 @@ export default function Intro() {
 
       {/* Right: Image */}
       <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-        <Image src="/me.JPG" alt="personal picture" width={280} height={280} className="rounded-xl" />
+        <Image src="/me2.JPG" alt="personal picture" width={280} height={280} className="rounded-xl" />
       </div>
     </div>
   );
