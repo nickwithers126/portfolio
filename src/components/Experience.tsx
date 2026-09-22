@@ -17,10 +17,11 @@ const workData: Entry[] = [
     title: 'California Franchise Tax Board',
     subtitle: 'Full Stack Software Developer',
     bullets: [
-      'Built full stack internal apps with .NET, C#, Entity Framework, and Blazor for asset tracking and compliance',
-      'Refactored legacy tools and stored procedures into modular, LINQ-based systems to boost maintainability and performance',
-      'Supported the rollout of a cloud-based asset management platform, handling backend integration and data validation',
-      'Created dashboards and paginated reports using Power BI and Report Builder, powered by custom SQL queries and views'
+      'Built full-stack enterprise apps using C#, .NET, Blazor, EF Core, and SQL Server for licensing, asset, and compliance workflows',
+      'Engineered backend workflows with REST APIs, caching, batch processing, concurrency controls, and scheduled jobs',
+      'Integrated Snow Software, Freshservice, and internal systems through validated data pipelines and synchronization services',
+      'Modernized legacy tools into modular, maintainable applications using reusable services, LINQ, and Entity Framework Core',
+      'Developed Power BI dashboards and paginated reports backed by custom SQL queries, views, and stored procedures'
     ]
   },
   {
@@ -29,9 +30,9 @@ const workData: Entry[] = [
     title: 'Boeing',
     subtitle: 'Software Test Automation Engineer',
     bullets: [
-      'Automated test cases and built a regression suite for multiple web apps',
-      'Contributed to a reusable test automation framework on a cross-functional Scrum team',
-      'Ensured reliability of new features through continuous integration and testing'
+      'Built automated regression tests for multiple web applications and critical user workflows',
+      'Contributed to a reusable test automation framework and integrated testing into CI workflows',
+      'Collaborated with developers in a cross-functional Scrum team to validate features and troubleshoot defects'
     ]
   },
 ];

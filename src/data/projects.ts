@@ -1,9 +1,19 @@
 export const allProjects = [
     {
+        image: '/ito2.png',
+        title: 'Ito',
+        description: 'An AI-assisted itinerary planner that organizes trips and audits them for timing conflicts, travel inefficiencies, and missing bookings. Built to make complex travel plans easier to manage.',
+        tags: ['NextJS', 'TailwindCSS', 'TypeScript', 'SupaBase', 'OpenAI API'],
+        links: [
+            { label: 'website', url: 'https://ito-trips.vercel.app/' },
+            { label: 'code', url: 'https://github.com/nickwithers126/ito' }
+        ],
+    },
+    {
         image: '/logobuddy.png',
         title: 'LogoBuddy',
         description:
-            'A minimalist logo generator that turns brand input into clean, custom icons using OpenAI’s GPT-Image-1. Designed for founders and creatives who want fast, simple branding without design skills.',
+            'A minimalist logo generator that turns brand input into clean, custom icons using OpenAI’s GPT‑Image‑2.5 Flare. Designed for founders and creatives who want fast, simple branding without design skills.',
         tags: ['NextJS', 'TailwindCSS', 'TypeScript', 'OpenAI API'],
         links: [
             { label: 'website', url: 'https://logobuddy.app' },
@@ -31,6 +41,16 @@ export const allProjects = [
             { label: 'website', url: 'https://lycheebyte.com' },
             { label: 'code', url: 'https://github.com/nickwithers126/lycheebyte-site' }
         ],
+    },
+    {
+        image: '/glyph.png',
+        title: 'Glyph',
+        description: 'An experimental Unicode finder that turns words, moods, and ideas into matching symbols using Typesafe’s Jev model. A simple exploration of semantic search and specialized AI.',
+        tags: ['Next.js', 'TypeScript', 'Jev', 'Typesafe API'],
+        links: [
+            { label: 'website', url: 'https://glyph-unicode.vercel.app/' },
+            { label: 'code', url: 'https://github.com/nickwithers126/glyph' }
+        ]
     },
     {
         image: '/portfolio.png',

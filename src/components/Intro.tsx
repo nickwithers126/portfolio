@@ -10,14 +10,13 @@ export default function Intro() {
       {/* Left: Text Content */}
       <div className="w-full md:w-1/2 space-y-4 text-[#E9FCFF]">
         <h1 className="text-4xl font-bold ">
-          hey, i’m nick! 👨‍💻
+          hi, i’m nick!
         </h1>
         <h3 className="text-xl">
           software developer from northern california 🌲
         </h3>
-        <p>
-          i care about how things work, how they’re built, and how they feel to use.
-        </p>
+        <p>i like building things and figuring out how they work.<br />
+           always learning something new along the way.</p>
 
         {/* Action buttons */}
         <div className="flex gap-6 pt-2 justify-center md:justify-start">

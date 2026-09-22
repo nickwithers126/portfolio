@@ -4,27 +4,26 @@ import Link from 'next/link';
 
 const featuredProjects = [
     {
+        image: '/ito2.png',
+        title: 'Ito',
+        description: 'An AI-assisted itinerary planner that organizes trips and audits them for timing conflicts, travel inefficiencies, and missing bookings. Built to make complex travel plans easier to manage.',
+        tags: ['NextJS', 'TailwindCSS', 'TypeScript', 'SupaBase', 'OpenAI API'],
+        links: [
+            { label: 'website', url: 'https://ito-trips.vercel.app/' },
+            { label: 'code', url: 'https://github.com/nickwithers126/ito' }
+        ],
+    },
+    {
         image: '/logobuddy.png',
         title: 'LogoBuddy',
         description:
-            'A minimalist logo generator that turns brand input into clean, custom icons using OpenAI’s GPT-Image-1. Designed for founders and creatives who want fast, simple branding without design skills.',
+            'A minimalist logo generator that turns brand input into clean, custom icons using OpenAI’s GPT‑Image‑2.5 Flare. Designed for founders and creatives who want fast, simple branding without design skills.',
         tags: ['NextJS', 'TailwindCSS', 'TypeScript', 'OpenAI API'],
         links: [
             { label: 'website', url: 'https://logobuddy.app' },
             { label: 'code', url: 'https://github.com/nickwithers126/logo-gen-app' }
         ],
-    },
-    {
-        image: '/spinery.png',
-        title: 'Spinery',
-        description:
-            'A 3D virtual bookshelf where users can search for books, save them to a shelf, and manage their library with real-time sync using Firebase and the Google Books API.',
-        tags: ['NextJS', 'TailwindCSS', 'TypeScript', 'Firebase', 'React Three Fiber', 'Google Books API'],
-        links: [
-            { label: 'website', url: 'https://spinery.vercel.app/' },
-            { label: 'code', url: 'https://github.com/nickwithers126/spinery' }
-        ],
-    },
+    }
 ];
 
 export default function FeaturedProjects() {
